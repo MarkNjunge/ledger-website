@@ -1,0 +1,47 @@
+$accent: #145c9e;
+
+#index {
+  background: #f2f2f2;
+  color: #3b3c46;
+
+  .title {
+    font-family: "Crimson Text", serif;
+  }
+
+  .text-accent {
+    color: $accent;
+  }
+
+  .screenshot {
+    height: 600px;
+  }
+
+  .download-badge {
+    height: 60px;
+  }
+
+  .screenshots {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1.4rem;
+  }
+
+  /* Small (sm) */
+  @media (max-width: 640px) {
+  }
+
+  /* Medium (md) */
+  @media (max-width: 768px) {
+    .screenshot {
+      height: 300px;
+    }
+
+    .download-badge {
+      height: 60px;
+    }
+  }
+
+  /* Large (lg) */
+  @media (max-width: 1024px) {
+  }
+}
